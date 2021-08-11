@@ -1,0 +1,57 @@
+.iphone-12 {
+	height: 577px;
+	background: url(../images/iphone_12.jpg) no-repeat center center/cover;
+}
+.iphone-12-pro {
+	height: 577px;
+	background: url(../images/iphone_12_pro.jpg) center center/cover;
+}
+.ipad-pro {
+	height: 577px;
+	background: url(../images/hero_ipad_pro.jpg) center center/cover;
+}
+#text-light {
+	color: #f5f5f7;
+}
+#text-dark {
+	color: rgba(0, 0, 0, 0.9);
+}
+
+.apple-hero {
+	margin-bottom: 13px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.apple-hero h2 {
+	font-size: 55px;
+	font-weight: 600;
+}
+.apple-hero h4 {
+	font-weight: 300;
+	font-size: 26px;
+	padding: 5px 0;
+}
+.apple-hero p {
+	font-size: 17px;
+	color: rgb(134, 134, 139);
+	font-weight: 500;
+	padding-top: 4px;
+}
+
+.apple-hero span {
+	padding: 5px;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.apple-hero a {
+	font-size: 22px;
+	color: #0066cc;
+}
+
+.apple-hero .chev {
+	width: 15px;
+	height: 15px;
+	color: #0066cc;
+}

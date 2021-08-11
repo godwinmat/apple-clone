@@ -1,0 +1,169 @@
+.apple-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 13px;
+	padding: 0px 13px 13px 13px;
+}
+
+.imac {
+	background: url(../images/promo_imac_large.jpg) no-repeat center center;
+	height: 577px;
+	text-align: center;
+	padding-top: 50px;
+}
+.iwatch {
+	background: url(../images/promo_watch_series_large.jpg) no-repeat center
+		center;
+	height: 577px;
+	text-align: center;
+	padding-top: 40px;
+}
+.ipad {
+	height: 577px;
+	background: url(../images/promo_large.jpg) no-repeat center center;
+	text-align: center;
+	padding-top: 50px;
+}
+.ifitness {
+	height: 577px;
+	background: url(../images/tile_new_large.jpg) no-repeat center center;
+	background-color: rgb(251, 251, 253);
+	background-position: bottom;
+	text-align: center;
+	padding-top: 40px;
+}
+.icard {
+	height: 577px;
+	background: url(../images/tile_2new_large.jpg) no-repeat center center/cover;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.itv {
+	height: 577px;
+	background: url(../images/promo_ted_large.jpg) no-repeat center center/cover;
+}
+
+/* IMac */
+
+.imac h2 {
+	font-size: 45px;
+	font-weight: 550;
+	color: rgba(0, 0, 0, 0.9);
+}
+.imac h4 {
+	font-weight: 300;
+	font-size: 21px;
+	padding: 5px 0;
+	color: rgba(0, 0, 0, 0.8);
+}
+.imac span {
+	padding: 5px;
+	padding-right: 20px;
+	display: inline-block;
+	margin-top: 2px;
+}
+.imac a {
+	font-size: 17px;
+	color: #0066cc;
+}
+.imac .chev {
+	width: 15px;
+	height: 15px;
+	color: #0066cc;
+}
+
+/* Iwatch */
+
+.iwatch .iwatch-img {
+	background: url(../images/promo_logo_watch_series_6_large.png) no-repeat
+		center center;
+	height: 50px;
+}
+.iwatch p {
+	color: #f5f5f7;
+	font-size: 20px;
+	padding: 10px 0;
+}
+.iwatch span {
+	padding-right: 20px;
+}
+.iwatch a {
+	font-size: 17px;
+	color: #0066cc;
+}
+.iwatch .chev {
+	width: 15px;
+	height: 15px;
+	color: #0066cc;
+}
+
+/* iPad */
+
+.ipad h2 {
+	font-size: 38px;
+	font-weight: 550;
+	color: rgba(0, 0, 0, 0.8);
+	letter-spacing: 0.1px;
+}
+.ipad span {
+	padding: 5px;
+	display: inline-block;
+	margin-top: 2px;
+}
+.ipad a {
+	font-size: 17px;
+	color: #0066cc;
+}
+.ipad .chev {
+	width: 15px;
+	height: 15px;
+	color: #0066cc;
+}
+
+/* Ifitness */
+
+.ifitness .ifitness-img {
+	background: url(../images/logo__fitness_large.png) no-repeat center center;
+	height: 50px;
+}
+.ifitness p {
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 20px;
+	padding: 10px 0;
+}
+.ifitness span {
+	padding-right: 20px;
+}
+.ifitness a {
+	font-size: 17px;
+	color: #0066cc;
+}
+.ifitness .chev {
+	width: 15px;
+	height: 15px;
+	color: #0066cc;
+}
+/* Icard */
+
+.icard .icard-img {
+	background: url(../images/logo_apple_large.png) no-repeat center center;
+	height: 50px;
+}
+.icard p {
+	color: rgba(0, 0, 0, 0.8);
+	font-size: 20px;
+	padding: 10px 0;
+}
+.icard span {
+	padding-right: 20px;
+}
+.icard a {
+	font-size: 17px;
+	color: #0066cc;
+}
+.icard .chev {
+	width: 15px;
+	height: 15px;
+	color: #0066cc;
+}
