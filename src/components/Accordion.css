@@ -1,0 +1,31 @@
+.accordion-title {
+	width: 100%;
+	padding: 10px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 12px;
+	color: #1d1d1f;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.accordion-list {
+	display: none;
+}
+
+.accordion.active .accordion-list {
+	display: block;
+	transition: all 5s ease-in;
+}
+.accordion.active .accordion-title {
+	border-bottom: none;
+}
+.accordion.active .accordion-list li {
+    cursor: pointer;
+    padding: 8px 15px;
+    margin: 0;
+}
+.accordion.active .accordion-list li:hover a {
+	text-decoration: underline;
+}

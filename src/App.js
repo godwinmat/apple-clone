@@ -2,6 +2,7 @@ import "./App.css";
 import AppleGrid from "./components/AppleGrid";
 
 import AppleHero from "./components/AppleHero";
+import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
 				id="text-light"
 			/>
 			<AppleGrid />
+			<Footer />
 		</div>
 	);
 }

@@ -55,3 +55,80 @@
 	height: 15px;
 	color: #0066cc;
 }
+
+
+@media screen and (max-width: 1068px) {
+	.iphone-12 {
+		height: 577px;
+		background: url(../images/iphone_12_medium.jpg) no-repeat center center/cover;
+	}
+	.iphone-12-pro {
+		height: 577px;
+		background: url(../images/iphone_12_pro_medium.jpg) center center/cover;
+	}
+	.ipad-pro {
+		height: 577px;
+		background: url(../images/hero_ipad_pro_medium.jpg) center center/cover;
+	}
+}
+@media screen and (max-width: 764px) {
+	.iphone-12 {
+		height: 577px;
+		background: url(../images/iphone_12_small.jpg) no-repeat center center/cover;
+	}
+	.iphone-12-pro {
+		height: 577px;
+		background: url(../images/iphone_12_pro_small.jpg) center center/cover;
+	}
+}
+@media screen and (max-width: 550px) {
+	.apple-hero h2 {
+		font-size: 45px;
+		font-weight: 600;
+	}
+	.apple-hero h4 {
+		font-weight: 300;
+		font-size: 22px;
+	}
+	.apple-hero p {
+		font-size: 15px;
+		color: rgb(134, 134, 139);
+		font-weight: 500;
+	}
+	.apple-hero span {
+		display: inline-block;
+	}
+	.apple-hero a {
+		font-size: 20px;
+	}
+}
+@media screen and (max-width: 450px) {
+	.apple-hero h2 {
+		font-size: 40px;
+		font-weight: 600;
+	}
+	.apple-hero h4 {
+		font-weight: 300;
+		font-size: 20px;
+	}
+	.apple-hero p {
+		font-size: 13px;
+		color: rgb(134, 134, 139);
+		font-weight: 500;
+	}
+}
+@media screen and (max-width: 400px) {
+	.apple-hero h2 {
+		font-size: 38px;
+		font-weight: 600;
+	}
+	.apple-hero h4 {
+		font-weight: 300;
+		font-size: 18px;
+	}
+	.apple-hero p {
+		font-size: 11px;
+		color: rgb(134, 134, 139);
+		font-weight: 500;
+	}
+}

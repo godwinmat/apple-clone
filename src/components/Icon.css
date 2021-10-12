@@ -1,0 +1,63 @@
+/* Plus Icon */
+.plus-icon {
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.plus-icon .plus-first-stroke {
+	height: 10px;
+	width: 2px;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	transition: all 0.5s ease-in-out;
+}
+.plus-icon .plus-second-stroke {
+	height: 2px;
+	width: 10px;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	transition: all 0.5s ease-in-out;
+}
+.plus-icon.active .plus-first-stroke {
+	transform: rotate(45deg);
+}
+.plus-icon.active .plus-second-stroke {
+	transform: rotate(45deg);
+}
+
+/* Menu Icon */
+.menu-icon {
+	width: 30px;
+	height: 30px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.menu-icon .menu-first-stroke {
+	width: 18px;
+	height: 1px;
+	background-color: #d3d3dd;
+	position: absolute;
+	top: 11px;
+	transition: all 0.5s ease-in-out;
+}
+
+.menu-icon .menu-second-stroke {
+	width: 18px;
+	height: 1px;
+	background-color: #d3d3dd;
+	position: absolute;
+	bottom: 11px;
+	transition: all 0.5s ease-in-out;
+}
+.menu-icon.active .menu-first-stroke {
+	transform: translateY(2px) rotate(45deg);
+}
+.menu-icon.active .menu-second-stroke {
+	transform: translateY(-5px) rotate(-45deg);
+}

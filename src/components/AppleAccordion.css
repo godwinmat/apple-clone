@@ -1,0 +1,10 @@
+.apple-accordion {
+	display: none;
+}
+
+@media (max-width: 767px) {
+	.apple-accordion {
+		display: block;
+        margin-bottom: 20px;
+	}
+}

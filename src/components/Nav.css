@@ -7,34 +7,45 @@ a {
 }
 
 .nav {
-    position: relative;
-    height: 90px;
+	position: relative;
+	height: 90px;
 }
 
 nav {
-    position: fixed;
-    top: 0;
-    backdrop-filter: saturate(180%) blur(20px);
+	position: fixed;
+	top: 0;
+	backdrop-filter: saturate(180%) blur(20px);
 	background-color: rgba(0, 0, 0, 0.8);
-    /* opacity: 0.97; */
-    height: 45px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
+	height: 45px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 10;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
+.search-container {
+	display: none;
+}
+.small-nav-items {
+	display: none;
+}
+
+nav .toggle-nav-item {
+	display: none;
+}
 nav .nav-items {
-    width: 990px;
-    margin: auto;
+	width: 990px;
+	margin: auto;
 	display: flex;
 	justify-content: space-between;
-    align-items: center;
+	align-items: center;
 }
 
 nav ul li {
-    display: flex;
+	display: flex;
 }
 
 nav ul li a {
@@ -46,22 +57,19 @@ nav ul li a {
 nav ul li .icon {
 	width: 23px;
 	height: 23px;
-    align-self: center;
+	align-self: center;
 }
-
-
 
 /* Sub-nav */
 .sub-nav {
-    position: relative;
-    top: 45px;
+	position: relative;
+	top: 45px;
 	background-color: #f2f2f7;
 	text-align: center;
 	padding: 10px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .sub-nav p {
@@ -71,4 +79,90 @@ nav ul li .icon {
 
 .sub-nav p a {
 	color: #0066cc;
+}
+
+/* Media Queries */
+@media (max-width: 1068px) {
+	.sub-nav p {
+		width: 500px;
+		line-height: 20px;
+	}
+}
+
+@media (max-width: 767px) {
+	nav.open {
+		height: 100vh;
+		backdrop-filter: none;
+		display: block;
+		background-color: rgba(0, 0, 0, 1);
+		align-items: flex-start;
+		justify-content: center;
+		transition: height 2s;
+		animation: slide-down 2s;
+		}
+	nav.open .small-nav-items {
+		margin-top: 5px;
+	}
+	nav .search-container,
+	nav .toggle-nav-item {
+		display: none;
+	}
+	nav .nav-items {
+		display: none;
+	}
+	nav .nav-items li a .apple-icon {
+		font-size: 20px;
+	}
+	nav.open .search-container {
+		display: block;
+		border-radius: 9px;
+		width: 90%;
+		height: 38px;
+		margin: 15px auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 5px;
+		color: #6e6e73;
+		background-color: rgba(255, 255, 255, 0.1);
+	}
+	.search-container input {
+		height: 29px;
+		border: none;
+		display: flex;
+		flex: 1;
+		margin-left: 3px;
+		background-color: transparent;
+		font-size: 18px;
+	}
+	nav.open .toggle-nav-item {
+		display: block;
+		border-top: 0.05px solid rgba(255, 255, 255, 0.5);
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 20px;
+	}
+	nav .toggle-nav-item li {
+		width: 90%;
+		margin: 8px 0;
+		padding-bottom: 10px;
+		border-bottom: 0.05px solid rgba(255, 255, 255, 0.5);
+	}
+	nav .toggle-nav-item li a {
+		font-size: 17px;
+	}
+	.small-nav-items {
+		display: flex;
+		width: 100%;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.small-nav-items li .menu-icon-container {
+		cursor: pointer;
+	}
+	.small-nav-items li .menu-icon-container:focus {
+		background-color: none;
+	}
 }

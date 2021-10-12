@@ -2,6 +2,13 @@ import React from "react";
 import "./AppleGrid.css";
 import { BiChevronRight } from "react-icons/bi";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+	faChevronRight,
+	faExternalLinkSquareAlt,
+	faPlayCircle,
+} from "@fortawesome/free-solid-svg-icons";
+
 const AppleGrid = () => {
 	return (
 		<div className="apple-grid">
@@ -10,11 +17,11 @@ const AppleGrid = () => {
 				<h4>Say hello</h4>
 				<span>
 					<a href="#">Learn more</a>
-					<BiChevronRight className="chev" />
+					<FontAwesomeIcon className="chev" icon={faChevronRight} />
 				</span>
 				<span>
 					<a href="#">Buy</a>
-					<BiChevronRight className="chev" />
+					<FontAwesomeIcon className="chev" icon={faChevronRight} />
 				</span>
 			</div>
 			<div className="iwatch">
@@ -22,11 +29,11 @@ const AppleGrid = () => {
 				<p>The future of health is on your wrist.</p>
 				<span>
 					<a href="#">Learn more</a>
-					<BiChevronRight className="chev" />
+					<FontAwesomeIcon className="chev" icon={faChevronRight} />
 				</span>
 				<span>
 					<a href="#">Buy</a>
-					<BiChevronRight className="chev" />
+					<FontAwesomeIcon className="chev" icon={faChevronRight} />
 				</span>
 			</div>
 			<div className="ipad">
@@ -36,7 +43,7 @@ const AppleGrid = () => {
 				</h2>
 				<span>
 					<a href="#">Save with education price.</a>
-					<BiChevronRight className="chev" />
+					<FontAwesomeIcon className="chev" icon={faChevronRight} />
 				</span>
 			</div>
 			<div className="ifitness">
@@ -44,11 +51,14 @@ const AppleGrid = () => {
 				<p>Fitness for all, powered by Apple Watch. </p>
 				<span>
 					<a href="#">Learn more</a>
-					<BiChevronRight className="chev" />
+					<FontAwesomeIcon className="chev" icon={faChevronRight} />
 				</span>
 				<span>
 					<a href="#">Try it free</a>
-					<BiChevronRight className="chev" />
+					<FontAwesomeIcon
+						className="chev"
+						icon={faExternalLinkSquareAlt}
+					/>
 				</span>
 			</div>
 			<div className="icard">
@@ -56,14 +66,32 @@ const AppleGrid = () => {
 				<p>Get up to 3% Daily Cash back with every purchase. </p>
 				<span>
 					<a href="#">Learn more</a>
-					<BiChevronRight className="chev" />
+					<FontAwesomeIcon className="chev" icon={faChevronRight} />
 				</span>
 				<span>
 					<a href="#">Try it free</a>
-					<BiChevronRight className="chev" />
+					<FontAwesomeIcon className="chev" icon={faChevronRight} />
 				</span>
 			</div>
-			<div className="itv"></div>
+			<div className="itv">
+				<div className="itv-img"></div>
+				<div className="itv-text">
+					<div className="h6-text">
+						<h6 id="first-h6">a docuseries featuring</h6>
+						<h6>
+							<span>paul mccartney</span> <span>dave grohl</span>{" "}
+							<span>charli xcx</span> <span>quest love</span>
+						</h6>
+					</div>
+					<h4>
+						Watch<span>the</span>sound
+					</h4>
+					<h5>with mark ronson</h5>
+					<a href="#">
+						Stream now <FontAwesomeIcon icon={faPlayCircle} />{" "}
+					</a>
+				</div>
+			</div>
 		</div>
 	);
 };
