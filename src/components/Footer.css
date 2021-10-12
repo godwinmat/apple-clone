@@ -85,3 +85,12 @@
 		color: rgba(0, 0, 0, 0.5);
 	}
 }
+
+/* Media Queries */
+@media (max-width: 400px) {
+	.footer .footer-container p {
+		font-size: 11px;
+		padding-bottom: 10px;
+		line-height: 15px;
+	}
+}

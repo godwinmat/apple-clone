@@ -272,6 +272,11 @@
 			center center/cover;
 		height: 477px;
 	}
+	.iwatch .iwatch-img {
+		background: url(../images/promo_logo_watch_series_6_large.png) no-repeat
+			center center;
+		height: 50px;
+	}
 	.icard .icard-img {
 		background: url(../images/logo_apple_medium.png) no-repeat center center;
 		height: 50px;
@@ -355,4 +360,19 @@
 		background: url(../images/promo_imac_small.jpg) no-repeat center
 			center;
 	}
+
+}
+@media (max-width: 500px) {
+	.icard .icard-img {
+		background: url(../images/logo_apple_small.png) no-repeat center center;
+	}
+	.itv .itv-img {
+		background: url(../images/logo_light_small.png) no-repeat center center;
+	}
+	.iwatch .iwatch-img {
+		background: url(../images/promo_logo_watch_series_small.png) no-repeat
+			center center;
+		height: 50px;
+	}
+
 }
