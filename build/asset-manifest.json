@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0a12c435.chunk.css",
+    "main.js": "/static/js/main.9b8992dd.chunk.js",
+    "main.js.map": "/static/js/main.9b8992dd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7b176358.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7b176358.js.map",
+    "static/js/2.a614cf93.chunk.js": "/static/js/2.a614cf93.chunk.js",
+    "static/js/2.a614cf93.chunk.js.map": "/static/js/2.a614cf93.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0a12c435.chunk.css.map": "/static/css/main.0a12c435.chunk.css.map",
+    "static/js/2.a614cf93.chunk.js.LICENSE.txt": "/static/js/2.a614cf93.chunk.js.LICENSE.txt",
+    "static/media/AppleHero.css": "/static/media/iphone_12_small.b10a739f.jpg",
+    "static/media/AppleGrid.css": "/static/media/tile_new_small.36eda821.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7b176358.js",
+    "static/js/2.a614cf93.chunk.js",
+    "static/css/main.0a12c435.chunk.css",
+    "static/js/main.9b8992dd.chunk.js"
+  ]
+}
